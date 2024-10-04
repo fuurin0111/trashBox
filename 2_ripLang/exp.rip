@@ -1,0 +1,23 @@
+imp bits/stdc++.h
+imp string
+use std
+
+box int s 0
+
+# これはコメントです。
+
+func int main
+{
+    for int i 0 i<5
+    {
+        for int j 0 j<5
+        {
+            cbox s s+1
+            if s%2==1
+            {
+                out s   
+            }
+        }
+    }
+    re 0
+}
